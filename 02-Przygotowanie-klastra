@@ -27,5 +27,7 @@ sudo docker node ls
 sudo docker info
 sudo docker node ls
 
-docker swarm join-token manager -q
-docker swarm join-token worker -q
+sudo docker swarm join-token manager -q
+sudo docker swarm join-token worker -q
+
+sudo docker node inspect self
