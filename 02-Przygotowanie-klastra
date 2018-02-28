@@ -1,0 +1,31 @@
+# Należy wykonać dla trzech węzłów klastra
+
+sudo apt-get update
+sudo apt-get -y upgrade
+sudo apt-get -y install apt-transport-https ca-certificates curl software-properties-common
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
+sudo apt-get update
+sudo apt-get -y install docker-ce
+sudo docker info
+
+# Na węźle manager
+
+ifconfig
+sudo docker swarm init --advertise-addr [IP]
+sudo docker info
+sudo docker node ls
+
+# Na węzłach worker
+
+sudo docker swarm join --token [token] [IP]:2377
+sudo docker info
+sudo docker node ls
+
+# Na weźle manager
+
+sudo docker info
+sudo docker node ls
+
+docker swarm join-token manager -q
+docker swarm join-token worker -q
