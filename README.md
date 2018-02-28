@@ -1,0 +1,31 @@
+![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg)
+
+# Warsztaty - Docker Swarm
+Repozytorium plików do jedniodniowego warsztatu Docker Swarm.
+
+## Dla kogo?
+
+Szkolenie skierowane jest do programistów jak i administratorów chcących poznać zasadę działania platformy orkiestrującej ekosystem kontenerów na podstawie środowiska Docker Swarm.
+
+## Co oferujemy?
+
+Szkolenie porusza zagadnienia związane z wymaganiami stawianymi przed platformami orkiestracyjnymi wraz z ich realizacją na przykładzie środowiska Docker Swarm. Omawiana jest wysoka dostępność usług (High Availability – HA) oraz automatyzacja i load-balancing wraz z autodiscoveringiem i autorejestracją usług.
+
+Wymagana jest wiedza związana z platformą Docker oraz systemami Linux/Unix. Uczestnik musi posiadać również elementarną wiedzę na temat sieci TCP/IP.
+
+## Agenda
+
+1. Wstęp do Swarm Mode / Wymagania na orkiestrację
+2. Swarm Services / HA
+3. Sieci w Swarm / Software Defined Network
+4. LoadBalancing , sieci ingress
+5. VIP
+6. Portainer, Shipyard, Rancher , Manomarks
+
+## Kiedy, co i jak?
+
+Najbliższy możliwy termin i prowadzący podany jest po zebraniu grupy. Warsztaty potwierdzimy tydzień przed terminem. Jeżeli z jakiegoś powodu się one nie wydarzą, co zdarza się niezmiernie rzadko, to dostaniesz zwrot kosztów lub możliwość wzięcia udziału w kolejnym terminie. Zajęcia trwają 8h wraz z przerwą.
+
+Warsztaty będą odbywać się w maksymalnie pięcio osobowym (wraz z prowadzącym) składzie w Warszawie. Podczas zajęć nie pozwolimy ci umrzeć z głodu – będzie ciągła przerwa kawowa (kawa/herbata/ciacha), oraz w połowie dnia obiad. Na koniec wydajemy silky smooth certyfikat ukończenia z Twoim imieniem i nazwiskiem, potwierdzający udział w warsztatach. Zapraszamy!
+
+Więcej informacji znjadziesz tutaj: https://inleo.pl/produkt/docker-swarm/.
