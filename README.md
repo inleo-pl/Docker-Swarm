@@ -16,14 +16,18 @@ Wymagana jest wiedza związana z platformą Docker oraz systemami Linux/Unix. Uc
 ## Agenda
 
 1.	Wstęp do orkiestracji
-2.	Swarm Mode
+2.	Uruchominie klastra w Swarm Mode
     * [01 - Połączenie](https://github.com/inleo-pl/Warsztaty-Docker-Swarm/blob/master/01-Polaczenie)
     * [02 - Przygotowanie klastra](https://github.com/inleo-pl/Warsztaty-Docker-Swarm/blob/master/02-Przygotowanie-klastra)
-3.	Swarm Services i HA
     * [03 - Manomarks](https://github.com/inleo-pl/Warsztaty-Docker-Swarm/blob/master/03-Manomarks)
-4.	Sieć w Swarm
-5.	LoadBalancing
-6.	Portainer, Shipyard, Rancher
+3.	Ingress Routing, porty i Loadbalancing
+4. Pożądany stan serwisu
+5. Przeprowadzanie Updatów serwisu
+6. Sieć pomiędzy kontenerami
+7. Uruhamianie przy pomocy Stacków
+8. Health Check
+9. Zabezpieczenie Secrets
+10. Portainer, Shipyard, Rancher
 
 ## Kiedy, co i jak?
 
