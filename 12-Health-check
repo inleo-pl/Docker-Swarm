@@ -1,0 +1,45 @@
+vi calc.yml
+
+version: '3.1'
+
+services:
+  calc:
+    image: swarmgs/calc
+    ports:
+      - "8080:80"
+    deploy:
+      placement:
+        constraints:
+          - node.role==manager
+
+sudo docker stack deploy -c calc.yml calc
+
+http://adreshosta.com:8080/calc/iseverythingok
+http://adreshosta.com:8080/calc/divide?numerator=4&denumerator=2
+
+docker service rm calc_calc
+sudo docker stack deploy -c calc.yml calc
+
+vi calc.yml
+
+services:
+  calc:
+    image: swarmgs/calc
+    ports:
+      - "8080:80"
+    healthcheck:
+      test: curl -f -s -S http://localhost/calc/iseverythingok || exit 1
+      interval: 5s
+      timeout: 5s
+      retries: 3
+    deploy:
+      placement:
+        constraints:
+          - node.role==manager
+          
+http://adreshosta.com:8080/calc/iseverythingok
+http://adreshosta.com:8080/calc/divide?numerator=4&denumerator=2
+
+# Poczekaj kilka sekund i:
+          
+http://adreshosta.com:8080/calc/iseverythingok
