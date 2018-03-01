@@ -16,7 +16,7 @@ sudo docker swarm init --advertise-addr [IP]
 sudo docker info
 sudo docker node ls
 
-# Na węzłach worker01 (Dodać TYLKO worker01 do klastra!)
+# Na węźle worker01 (Dodać TYLKO worker01 do klastra!)
 
 sudo docker swarm join --token [token] [IP]:2377
 sudo docker info
