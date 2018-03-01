@@ -22,11 +22,14 @@ Wymagana jest wiedza związana z platformą Docker oraz systemami Linux/Unix. Uc
     * [03 - Serwisy i taski](https://github.com/inleo-pl/Warsztaty-Docker-Swarm/blob/master/03-Serwisy-i-taski)
     * [04 - Manomarks](https://github.com/inleo-pl/Warsztaty-Docker-Swarm/blob/master/04-Manomarks)
 3.	Ingress Routing, porty i Loadbalancing
+    * [05 - Ingress i Host Network](https://github.com/inleo-pl/Warsztaty-Docker-Swarm/blob/master/05-Ingress-i-Host-Network)
+    * [06 - Service-discovery](https://github.com/inleo-pl/Warsztaty-Docker-Swarm/blob/master/06-Service-discovery)
 4. Pożądany stan serwisu
+    * [07 - Constraints](https://github.com/inleo-pl/Warsztaty-Docker-Swarm/blob/master/07-Constraints)
 5. Przeprowadzanie Updatów serwisu
 6. Sieć pomiędzy kontenerami
 7. Uruhamianie przy pomocy Stacków
-8. Health Check
+8. Health Check i Limity
 9. Zabezpieczenie Secrets
 10. Portainer, Shipyard, Rancher
 
