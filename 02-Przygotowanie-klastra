@@ -1,4 +1,4 @@
-# Należy wykonać dla trzech węzłów klastra
+# Należy wykonać dla trzech węzłów klastra (manager01, worker01, worker02)
 
 sudo apt-get update
 sudo apt-get -y upgrade
@@ -9,20 +9,20 @@ sudo apt-get update
 sudo apt-get -y install docker-ce
 sudo docker info
 
-# Na węźle manager
+# Na węźle manager01
 
 ifconfig
 sudo docker swarm init --advertise-addr [IP]
 sudo docker info
 sudo docker node ls
 
-# Na węzłach worker
+# Na węzłach worker01 (Dodać TYLKO worker01 do klastra!)
 
 sudo docker swarm join --token [token] [IP]:2377
 sudo docker info
 sudo docker node ls
 
-# Na weźle manager
+# Na weźle manager01
 
 sudo docker info
 sudo docker node ls
