@@ -34,6 +34,8 @@ Wymagana jest wiedza związana z platformą Docker oraz systemami Linux/Unix. Uc
 7. Uruchamianie przy pomocy Stacków
     * [11 - Stack](https://github.com/inleo-pl/Warsztaty-Docker-Swarm/blob/master/11-Stack)
 8. Health Check i Limity
+    * [12 - Health check](https://github.com/inleo-pl/Warsztaty-Docker-Swarm/blob/master/12-Health-check)
+    * [13 - Limity](https://github.com/inleo-pl/Warsztaty-Docker-Swarm/blob/master/13-Limity)
 9. Zabezpieczenie Secrets
 10. Portainer, Shipyard, Rancher
 
