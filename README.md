@@ -19,7 +19,8 @@ Wymagana jest wiedza związana z platformą Docker oraz systemami Linux/Unix. Uc
 2.	Uruchominie klastra w Swarm Mode
     * [01 - Połączenie](https://github.com/inleo-pl/Warsztaty-Docker-Swarm/blob/master/01-Polaczenie)
     * [02 - Przygotowanie klastra](https://github.com/inleo-pl/Warsztaty-Docker-Swarm/blob/master/02-Przygotowanie-klastra)
-    * [03 - Manomarks](https://github.com/inleo-pl/Warsztaty-Docker-Swarm/blob/master/03-Manomarks)
+    * [03 - Serwisy i taski](https://github.com/inleo-pl/Warsztaty-Docker-Swarm/blob/master/03-Serwisy-i-taski)
+    * [04 - Manomarks](https://github.com/inleo-pl/Warsztaty-Docker-Swarm/blob/master/04-Manomarks)
 3.	Ingress Routing, porty i Loadbalancing
 4. Pożądany stan serwisu
 5. Przeprowadzanie Updatów serwisu
