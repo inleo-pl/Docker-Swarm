@@ -1,0 +1,6 @@
+# Serwis na nie istniejącym węźle klastra
+
+sudo docker service create --name on-worker03 -p 8237:80 --constraint node.hostname==worker4 nginx
+sudo docker service ls
+sudo docker service ps on-worker03
+sudo docker inspect [ID]
