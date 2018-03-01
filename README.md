@@ -52,18 +52,18 @@ Więcej informacji znjadziesz tutaj: https://inleo.pl/produkt/docker-swarm/.
 
 ## Źródła i przydatne linki
 
-https://sysadmins.co.za/setup-a-3-node-docker-swarm-on-ubuntu-16/
-http://docker-k8s-lab.readthedocs.io/en/latest/docker/docker-swarm.html
-https://docs.docker.com/engine/swarm/swarm-tutorial/create-swarm/
-https://docs.docker.com/engine/swarm/swarm-tutorial/add-nodes/
-https://github.com/dockersamples/docker-swarm-visualizer
-https://docs.docker.com/engine/swarm/swarm-tutorial/drain-node/
-https://docs.docker.com/engine/swarm/swarm-tutorial/rolling-update/
-https://docs.docker.com/engine/swarm/swarm-tutorial/delete-service/
-https://docs.docker.com/engine/swarm/swarm-tutorial/scale-service/
-https://docs.docker.com/engine/swarm/swarm-tutorial/inspect-service/
-https://docs.docker.com/engine/swarm/swarm-tutorial/deploy-service/
-https://github.com/google/cadvisor
-https://github.com/docker/swarmkit
-https://docs.docker.com/compose/compose-file/
-https://github.com/g0t4/docker-swarm-mode-getting-started/tree/master/services
+ * https://sysadmins.co.za/setup-a-3-node-docker-swarm-on-ubuntu-16/
+ * http://docker-k8s-lab.readthedocs.io/en/latest/docker/docker-swarm.html
+ * https://docs.docker.com/engine/swarm/swarm-tutorial/create-swarm/
+ * https://docs.docker.com/engine/swarm/swarm-tutorial/add-nodes/
+ * https://github.com/dockersamples/docker-swarm-visualizer
+ * https://docs.docker.com/engine/swarm/swarm-tutorial/drain-node/
+ * https://docs.docker.com/engine/swarm/swarm-tutorial/rolling-update/
+ * https://docs.docker.com/engine/swarm/swarm-tutorial/delete-service/
+ * https://docs.docker.com/engine/swarm/swarm-tutorial/scale-service/
+ * https://docs.docker.com/engine/swarm/swarm-tutorial/inspect-service/
+ * https://docs.docker.com/engine/swarm/swarm-tutorial/deploy-service/
+ * https://github.com/google/cadvisor
+ * https://github.com/docker/swarmkit
+ * https://docs.docker.com/compose/compose-file/
+ * https://github.com/g0t4/docker-swarm-mode-getting-started/tree/master/services
