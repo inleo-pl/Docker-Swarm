@@ -1,0 +1,18 @@
+sudo docker service rm $(docker service ls -q)
+
+docker service create \
+    --name portainer \
+    --publish 8080:9000 \
+    --constraint 'node.role == manager' \
+    --mount type=bind,src=//var/run/docker.sock,dst=/var/run/docker.sock \
+    portainer/portainer \
+    -H unix:///var/run/docker.sock
+    
+http://adreshosta01:8080
+
+sudo docker service create \
+  --name=viz \
+  --publish=8090:8080/tcp \
+  --constraint=node.role==manager \
+  --mount=type=bind,src=/var/run/docker.sock,dst=/var/run/docker.sock \
+  dockersamples/visualizer
