@@ -30,7 +30,9 @@ Wymagana jest wiedza związana z platformą Docker oraz systemami Linux/Unix. Uc
 5. Przeprowadzanie Updatów serwisu
     * [09 - Update](https://github.com/inleo-pl/Warsztaty-Docker-Swarm/blob/master/09-Update)
 6. Sieć pomiędzy kontenerami
+    * [10 - Overlay](https://github.com/inleo-pl/Warsztaty-Docker-Swarm/blob/master/10-Overlay)
 7. Uruchamianie przy pomocy Stacków
+    * [11 - Stack](https://github.com/inleo-pl/Warsztaty-Docker-Swarm/blob/master/11-Stack)
 8. Health Check i Limity
 9. Zabezpieczenie Secrets
 10. Portainer, Shipyard, Rancher
