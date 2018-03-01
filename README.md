@@ -37,6 +37,7 @@ Wymagana jest wiedza związana z platformą Docker oraz systemami Linux/Unix. Uc
     * [12 - Health check](https://github.com/inleo-pl/Warsztaty-Docker-Swarm/blob/master/12-Health-check)
     * [13 - Limity zasobów](https://github.com/inleo-pl/Warsztaty-Docker-Swarm/blob/master/13-Limity-zasobow)
 9. Zabezpieczenie Secrets
+    * [14 - Secrets](https://github.com/inleo-pl/Warsztaty-Docker-Swarm/blob/master/14-Secrets)
 10. Portainer, Shipyard, Rancher
 
 ## Kiedy, co i jak?
