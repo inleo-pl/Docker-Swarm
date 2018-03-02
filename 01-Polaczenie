@@ -1,5 +1,5 @@
 wget https://raw.githubusercontent.com/inleo-pl/Warsztaty-Docker-Swarm/master/Docker_Swarm.pem
 chmod 600 /miejsce/gdzie/jest/Docker_Swarm.pem
-ssh -i /miejsce/gdzie/jest/Docker_Swarm.pem ubuntu@adreshosta01.com
-ssh -i /miejsce/gdzie/jest/Docker_Swarm.pem ubuntu@adreshosta02.com
-ssh -i /miejsce/gdzie/jest/Docker_Swarm.pem ubuntu@adreshosta03.com
+ssh -i /miejsce/gdzie/jest/Docker_Swarm.pem ubuntu@manager01
+ssh -i /miejsce/gdzie/jest/Docker_Swarm.pem ubuntu@worker01
+ssh -i /miejsce/gdzie/jest/Docker_Swarm.pem ubuntu@worker02
