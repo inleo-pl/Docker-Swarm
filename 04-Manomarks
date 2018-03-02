@@ -7,7 +7,7 @@ sudo docker service create \
   --mount=type=bind,src=/var/run/docker.sock,dst=/var/run/docker.sock \
   dockersamples/visualizer
   
-  sudo docker service ls
-  sudo docker container ls
+sudo docker service ls
+sudo docker container ls
   
-  http://[adreshosta]:8090
+http://[adreshosta]:8090
