@@ -9,7 +9,7 @@ sudo apt-get update
 sudo apt-get -y install docker-ce
 sudo docker info
 ```
-Na węźle manager01:```
+Na węźle manager01:
 ```
 ifconfig
 sudo docker swarm init --advertise-addr [IP]
