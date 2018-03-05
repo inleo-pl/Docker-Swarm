@@ -1,5 +1,12 @@
+Czyszczenie:
+```
 sudo docker service rm $(docker service ls -q)
-
+```
+Uruchamianie Ranchera:
+```
 docker run -d --restart=unless-stopped -p 8080:8080 rancher/server
-
-http://adreshosta01:8080
+```
+Wejdz na:
+```
+http://manager01:8080
+```
