@@ -1,7 +1,7 @@
 Ingress przykład jedna instancja:
 ```
 sudo docker network inspect ingress
-sudo docker service create -d --name web --network overnet --replicas 1 -p 8080:80
+sudo docker service create -d --name web --network ingress --replicas 1 -p 8080:80 nginx
 sudo docker service inspect web --pretty
 ```
 Wejdz na stronę i zobacz jak działa serwis poprzez ingress routing:
@@ -15,27 +15,25 @@ sudo docker service rm web
 ```
 Ingres dowolne rozkładanie ruchu pomiędzy węzłami klastra:
 ```
-sudo docker service create --mode=global \
-  --volume=/:/rootfs:ro \
-  --volume=/var/run:/var/run:rw \
-  --volume=/sys:/sys:ro \
-  --volume=/var/lib/docker/:/var/lib/docker:ro \
-  --volume=/dev/disk/:/dev/disk:ro \
+sudo docker service create --mode=global --name=cadvisor \
+  --mount type=bind,source=/,target=/rootfs,readonly=true \
+  --mount type=bind,source=/var/run,target=/var/run,readonly=false \
+  --mount type=bind,source=/sys,target=/sys,readonly=true \
+  --mount type=bind,source=/var/lib/docker,target=/var/lib/docker,readonly=true \
   --publish=8080:8080 \
-  --detach=true \
-  --name=cadvisor \
   google/cadvisor:latest
 sudo docker service ls
 ```
 Wejdz na stronę:
 ```
+http://manager01:8080
 http://worker01:8080
 ```
 Zmiana z ingress na host:
 ```
-sudo docker servcie update --publish-rm 8080 cadvisor
+sudo docker service update --publish-rm=8080 cadvisor
 sudo docker service inspect cadvisor
-sudo docker servcie update --publish-add mode=host,published=8080,target=8080 cadvisor
+sudo docker service update --publish-add mode=host,published=8080,target=8080 cadvisor
 sudo docker service inspect cadvisor
 ```
 Randrom port:
