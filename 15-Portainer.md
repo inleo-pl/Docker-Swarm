@@ -1,5 +1,9 @@
+Czyszczenie:
+```
 sudo docker service rm $(docker service ls -q)
-
+```
+Uruchomienie serwisu Portainer:
+```
 docker service create \
     --name portainer \
     --publish 8080:9000 \
@@ -7,12 +11,17 @@ docker service create \
     --mount type=bind,src=//var/run/docker.sock,dst=/var/run/docker.sock \
     portainer/portainer \
     -H unix:///var/run/docker.sock
-    
-http://adreshosta01:8080
-
+```
+Aby się do niego dostać wejdz na:
+```
+http://manager01:8080
+```
+Uruhamiamy viz aby zobaczyć jak Portainer przedstawia nam infrastrukturę:
+```
 sudo docker service create \
   --name=viz \
   --publish=8090:8080/tcp \
   --constraint=node.role==manager \
   --mount=type=bind,src=/var/run/docker.sock,dst=/var/run/docker.sock \
   dockersamples/visualizer
+```
