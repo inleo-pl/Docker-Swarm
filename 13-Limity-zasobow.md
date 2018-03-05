@@ -18,6 +18,8 @@ services:
           cpus: '0.25'
           memory: 20M
 ```
+Zaktualziuj stack i sprawdz konfigurajcę:
+```
 sudo docker stack deploy -c redis.yml redis
 sudo docker inspect redis
 ```
