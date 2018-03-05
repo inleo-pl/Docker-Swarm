@@ -1,5 +1,9 @@
+Stworzym kolejny konfig i plik yml:
+```
 vi redis.yml
-
+```
+Wpisz do pliku:
+```
 version: '3.1'
 
 services:
@@ -13,5 +17,7 @@ services:
         reservations:
           cpus: '0.25'
           memory: 20M
-
+```
 sudo docker stack deploy -c redis.yml redis
+sudo docker inspect redis
+```
