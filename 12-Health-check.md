@@ -22,11 +22,11 @@ sudo docker stack deploy -c calc.yml calc
 ```
 Tutaj możemy sprawdzić czy aplikacja działa:
 ```
-http://adreshosta.com:8080/calc/iseverythingok
+http://manager01:8080/calc/iseverythingok
 ```
 A tu można ją zepsuć:
 ```
-http://adreshosta.com:8080/calc/divide?numerator=4&denumerator=2
+http://manager01:8080/calc/divide?numerator=4&denumerator=2
 ```
 Usuńmy uszkodzony serwis:
 ```
@@ -59,10 +59,10 @@ services:
 ```
 Sprawdzamy aplikację i ją psujemy:
 ```
-http://adreshosta.com:8080/calc/iseverythingok
-http://adreshosta.com:8080/calc/divide?numerator=4&denumerator=2
+http://manager01:8080/calc/iseverythingok
+http://manager01:8080/calc/divide?numerator=4&denumerator=2
 ```
 Teraz poczekaj kilka sekund i...
 ```
-http://adreshosta.com:8080/calc/iseverythingok
+http://manager01:8080/calc/iseverythingok
 ```
