@@ -17,30 +17,30 @@ Wymagana jest wiedza związana z platformą Docker oraz systemami Linux/Unix. Uc
 
 1.	Wstęp do orkiestracji
 2.	Uruchominie klastra w Swarm Mode
-    * [01 - Połączenie](https://github.com/inleo-pl/Warsztaty-Docker-Swarm/blob/master/01-Polaczenie)
-    * [02 - Przygotowanie klastra](https://github.com/inleo-pl/Warsztaty-Docker-Swarm/blob/master/02-Przygotowanie-klastra)
-    * [03 - Serwisy i taski](https://github.com/inleo-pl/Warsztaty-Docker-Swarm/blob/master/03-Serwisy-i-taski)
-    * [04 - Manomarks](https://github.com/inleo-pl/Warsztaty-Docker-Swarm/blob/master/04-Manomarks)
-3.	Ingress Routing, porty i Loadbalancing
-    * [05 - Ingress i Host Network](https://github.com/inleo-pl/Warsztaty-Docker-Swarm/blob/master/05-Ingress-i-Host-Network)
-    * [06 - Service-discovery](https://github.com/inleo-pl/Warsztaty-Docker-Swarm/blob/master/06-Service-discovery)
-4. Pożądany stan serwisu
-    * [07 - Constraints](https://github.com/inleo-pl/Warsztaty-Docker-Swarm/blob/master/07-Constraints)
-    * [08 - Zmiany w klastrze](https://github.com/inleo-pl/Warsztaty-Docker-Swarm/blob/master/08-Zmiany-w-klastrze)
-5. Przeprowadzanie Updatów serwisu
-    * [09 - Update](https://github.com/inleo-pl/Warsztaty-Docker-Swarm/blob/master/09-Update)
-6. Sieć pomiędzy kontenerami
-    * [10 - Overlay](https://github.com/inleo-pl/Warsztaty-Docker-Swarm/blob/master/10-Overlay)
+    * [01 - Połączenie](https://github.com/inleo-pl/Warsztaty-Docker-Swarm/blob/master/01-Polaczenie.md)
+    * [02 - Przygotowanie klastra](https://github.com/inleo-pl/Warsztaty-Docker-Swarm/blob/master/02-Przygotowanie-klastra.md)
+    * [03 - Serwisy i taski](https://github.com/inleo-pl/Warsztaty-Docker-Swarm/blob/master/03-Serwisy-i-taski.md)
+    * [04 - Manomarks](https://github.com/inleo-pl/Warsztaty-Docker-Swarm/blob/master/04-Manomarks.md)
+3. Sieć pomiędzy kontenerami
+    * [05 - Overlay](https://github.com/inleo-pl/Warsztaty-Docker-Swarm/blob/master/05-Overlay.md)
+4.	Ingress Routing, porty i Loadbalancing
+    * [06 - Ingress i Host Network](https://github.com/inleo-pl/Warsztaty-Docker-Swarm/blob/master/06-Ingress-i-Host-Network.md)
+    * [07 - Service-discovery](https://github.com/inleo-pl/Warsztaty-Docker-Swarm/blob/master/07-Service-discovery.md)
+5. Pożądany stan serwisu
+    * [08 - Constraints](https://github.com/inleo-pl/Warsztaty-Docker-Swarm/blob/master/08-Constraints.md)
+    * [09 - Zmiany w klastrze](https://github.com/inleo-pl/Warsztaty-Docker-Swarm/blob/master/09-Zmiany-w-klastrze.md)
+6. Przeprowadzanie Updatów serwisu
+    * [10 - Update](https://github.com/inleo-pl/Warsztaty-Docker-Swarm/blob/master/10-Update.md)
 7. Uruchamianie przy pomocy Stacków
-    * [11 - Stack](https://github.com/inleo-pl/Warsztaty-Docker-Swarm/blob/master/11-Stack)
+    * [11 - Stack](https://github.com/inleo-pl/Warsztaty-Docker-Swarm/blob/master/11-Stack.md)
 8. Health Check i Limity
-    * [12 - Health check](https://github.com/inleo-pl/Warsztaty-Docker-Swarm/blob/master/12-Health-check)
-    * [13 - Limity zasobów](https://github.com/inleo-pl/Warsztaty-Docker-Swarm/blob/master/13-Limity-zasobow)
+    * [12 - Health check](https://github.com/inleo-pl/Warsztaty-Docker-Swarm/blob/master/12-Health-check.md)
+    * [13 - Limity zasobów](https://github.com/inleo-pl/Warsztaty-Docker-Swarm/blob/master/13-Limity-zasobow.md)
 9. Zabezpieczenie Secrets
-    * [14 - Secrets](https://github.com/inleo-pl/Warsztaty-Docker-Swarm/blob/master/14-Secrets)
+    * [14 - Secrets](https://github.com/inleo-pl/Warsztaty-Docker-Swarm/blob/master/14-Secrets.md)
 10. Portainer i Rancher
-    * [15 - Portainer](https://github.com/inleo-pl/Warsztaty-Docker-Swarm/blob/master/15-Portainer)
-    * [16 - Rancher](https://github.com/inleo-pl/Warsztaty-Docker-Swarm/blob/master/16-Rancher)
+    * [15 - Portainer](https://github.com/inleo-pl/Warsztaty-Docker-Swarm/blob/master/15-Portainer.md)
+    * [16 - Rancher](https://github.com/inleo-pl/Warsztaty-Docker-Swarm/blob/master/16-Rancher.md)
 
 ## Kiedy, co i jak?
 
