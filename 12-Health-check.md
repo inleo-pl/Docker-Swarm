@@ -30,7 +30,7 @@ http://manager01:8080/calc/divide?numerator=4&denumerator=2
 ```
 Usuńmy uszkodzony serwis:
 ```
-docker service rm calc_calc
+sudo docker service rm calc_calc
 ```
 Uruchommy go jeszcze raz:
 ```
