@@ -57,6 +57,10 @@ services:
         constraints:
           - node.role==manager
 ```
+Aktualizujemy stack:
+```
+sudo docker stack deploy -c calc.yml calc
+```
 Sprawdzamy aplikację i ją psujemy:
 ```
 http://manager01:8080/calc/iseverythingok
