@@ -4,7 +4,7 @@ sudo docker service inspect viz > viz.inspect
 ```
 Czyścimy:
 ```
-sudo docker service rm $(docker service ls -q)
+sudo docker service rm $(sudo docker service ls -q)
 ```
 Tworzymy plik yml:
 ```
