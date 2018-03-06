@@ -6,15 +6,13 @@ sudo docker service create \
   --constraint=node.role==manager \
   --mount=type=bind,src=/var/run/docker.sock,dst=/var/run/docker.sock \
   dockersamples/visualizer
-sudo docker service create --mode=global \
-  --volume=/:/rootfs:ro \
-  --volume=/var/run:/var/run:rw \
-  --volume=/sys:/sys:ro \
-  --volume=/var/lib/docker/:/var/lib/docker:ro \
-  --volume=/dev/disk/:/dev/disk:ro \
+  
+sudo docker service create --mode=global --name=cadvisor \
+  --mount type=bind,source=/,target=/rootfs,readonly=true \
+  --mount type=bind,source=/var/run,target=/var/run,readonly=false \
+  --mount type=bind,source=/sys,target=/sys,readonly=true \
+  --mount type=bind,source=/var/lib/docker,target=/var/lib/docker,readonly=true \
   --publish=8080:8080 \
-  --detach=true \
-  --name=cadvisor \
   google/cadvisor:latest
 ```
 Testujemy:
