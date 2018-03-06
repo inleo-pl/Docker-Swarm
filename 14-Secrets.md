@@ -33,7 +33,7 @@ secrets:
 ```
 Uruchommy stack:
 ```
-sudo docker stack deploy -c mysql.yml
+sudo docker stack deploy -c mysql.yml mysql
 sudo docker stack ps mysql
 ```
 Sprawdźmy co się stało, że stack się nie uruchomił:
@@ -67,7 +67,7 @@ secrets:
 ```
 Aktualizujemy stack:
 ```
-sudo docker stack deploy -c mysql.yml
+sudo docker stack deploy -c mysql.yml mysql
 sudo docker stack ps mysql
 ```
 Dostęp do secret w kontenerze:
