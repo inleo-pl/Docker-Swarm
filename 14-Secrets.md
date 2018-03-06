@@ -5,7 +5,7 @@ sudo docker secret ls
 ```
 Dodajemy nasz secret:
 ```
-echo cmentarnapolka | docker secret create mysql_root_password -
+sudo echo cmentarnapolka | sudo docker secret create mysql_root_password -
 ```
 Stwórzmy plik z definicją stacka:
 ```
@@ -34,11 +34,11 @@ secrets:
 Uruchommy stack:
 ```
 sudo docker stack deploy -c mysql.yml
-docker stack ps mysql
+sudo docker stack ps mysql
 ```
 Sprawdźmy co się stało, że stack się nie uruchomił:
 ```
-docker service logs mysql_mysql
+sudo docker service logs mysql_mysql
 ```
 Edytujjmy plik yml:
 ```
@@ -73,7 +73,7 @@ sudo docker stack ps mysql
 Dostęp do secret w kontenerze:
 ```
 sudo docker ps
-docker exec -it [ID] bash
+sudo docker exec -it [ID] bash
   cd run
   cd secrets
   ls
