@@ -1,8 +1,4 @@
-Co się dzieje gdy dołączamy nowy węzeł? Na początek czyścimy:
-```
-sudo docker service rm $(docker service ls -q)
-```
-Następnie tworzymy dwa serwisy viz i cadvisor:
+Co się dzieje gdy dołączamy nowy węzeł? Na początek tworzymy dwa serwisy viz i cadvisor:
 ```
 sudo docker service create \
   --name=viz \
