@@ -1,6 +1,6 @@
 Czyszczenie:
 ```
-sudo docker service rm $(docker service ls -q)
+sudo docker service rm $(sudo docker service ls -q)
 ```
 Uruchamianie Ranchera:
 ```
