@@ -21,5 +21,5 @@ services:
 Zaktualziuj stack i sprawdz konfigurajcę:
 ```
 sudo docker stack deploy -c redis.yml redis
-sudo docker inspect redis
+sudo docker inspect redis_redis
 ```
