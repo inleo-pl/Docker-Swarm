@@ -1,7 +1,7 @@
 Ingress przykład jedna instancja:
 ```
 sudo docker network inspect ingress
-sudo docker service create -d --name web --network ingress --replicas 1 -p 8080:80 nginx
+sudo docker service create -d --name web2 --network ingress --replicas 1 -p 8080:80 nginx
 sudo docker service inspect web --pretty
 ```
 Wejdz na stronę i zobacz jak działa serwis poprzez ingress routing:
