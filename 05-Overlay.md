@@ -6,6 +6,7 @@ sudo docker network inspect backend
 ```
 Dodajemy do niej kontener:
 ```
-sudo docker service create -d --name web --network backend --replicas 2
+sudo docker service create -d --name web --network backend --replicas 2 alpine sleep 1d
 sudo docker service ls
+sudo docker network inspect backend
 ```
