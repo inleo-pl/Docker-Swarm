@@ -67,3 +67,4 @@ Więcej informacji znjadziesz tutaj: https://inleo.pl/produkt/docker-swarm/.
  * https://github.com/docker/swarmkit
  * https://docs.docker.com/compose/compose-file/
  * https://github.com/g0t4/docker-swarm-mode-getting-started/tree/master/services
+ * https://github.com/charypar/swarm-dashboard
