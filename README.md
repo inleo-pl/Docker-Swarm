@@ -15,7 +15,7 @@ Wymagana jest wiedza związana z platformą Docker oraz systemami Linux/Unix. Uc
 
 ## Agenda
 
-1.	Wstęp do orkiestracji
+1.	[Wstęp do orkiestracji i kilka słów o Docker Swarm](https://inleo.pl/blog/wprowadzenie-do-konteneryzacji-2/#swarm)
 2.	Uruchominie klastra w Swarm Mode
     * [01 - Połączenie](https://github.com/inleo-pl/Warsztaty-Docker-Swarm/blob/master/01-Polaczenie.md)
     * [02 - Przygotowanie klastra](https://github.com/inleo-pl/Warsztaty-Docker-Swarm/blob/master/02-Przygotowanie-klastra.md)
