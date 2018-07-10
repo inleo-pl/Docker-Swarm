@@ -4,7 +4,7 @@ sudo docker service rm $(sudo docker service ls -q)
 ```
 Uruchomienie serwisu Portainer:
 ```
-docker service create \
+sudo docker service create \
     --name portainer \
     --publish 8080:9000 \
     --constraint 'node.role == manager' \
