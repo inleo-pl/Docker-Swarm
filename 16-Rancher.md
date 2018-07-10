@@ -4,7 +4,7 @@ sudo docker service rm $(sudo docker service ls -q)
 ```
 Uruchamianie Ranchera:
 ```
-docker run -d --restart=unless-stopped -p 8080:8080 rancher/server
+sudo docker run -d --restart=unless-stopped -p 8080:8080 rancher/server
 ```
 Wejdz na:
 ```
