@@ -42,6 +42,8 @@ vi calc.yml
 ```
 Dopusjemy do niego sekcję healthcheck:
 ```
+version: '3.1'
+
 services:
   calc:
     image: swarmgs/calc
