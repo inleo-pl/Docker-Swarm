@@ -22,7 +22,7 @@ services:
       MYSQL_DATABASE: wordpress
       # MYSQL_ROOT_PASSWORD: root
     secrets:
-      - root_password
+      - mysql_root_password
     deploy:
       placement:
         constraints:
@@ -56,7 +56,7 @@ services:
       MYSQL_ALLOW_EMPTY_PASSWORD: "yes"
       # MYSQL_ROOT_PASSWORD: root
     secrets:
-      - root_password
+      - mysql_root_password
     deploy:
       placement:
         constraints:
@@ -93,7 +93,7 @@ services:
       MYSQL_DATABASE: wordpress
       MYSQL_ROOT_PASSWORD_FILE: "/run/secrets/mysql_root_password"
     secrets:
-      - root_password
+      - mysql_root_password
     deploy:
       placement:
         constraints:
