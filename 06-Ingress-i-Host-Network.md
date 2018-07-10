@@ -36,7 +36,7 @@ sudo docker service inspect cadvisor
 sudo docker service update --publish-add mode=host,published=8080,target=8080 cadvisor
 sudo docker service inspect cadvisor
 ```
-Randrom port:
+Random port:
 ```
 sudo docker service create --name random -p target=80 nginx
 sudo docker service ps random
