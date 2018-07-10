@@ -1,0 +1,39 @@
+LAB01:
+ - manager01 - manager01-swarmlab01-nsblgnk3.srv.ravcloud.com
+ - worker01 - worker01-swarmlab01-q3nmunii.srv.ravcloud.com
+ - worker02 - worker02-swarmlab01-zw8fosm0.srv.ravcloud.com
+ 
+LAB02:
+ - manager01 - manager01-swarmlab02-ylpnfrfu.srv.ravcloud.com
+ - worker01 - worker01-swarmlab02-xfgpqbb8.srv.ravcloud.com
+ - worker02 - worker02-swarmlab02-bhyl1oby.srv.ravcloud.com
+ 
+LAB03:
+ - manager01 - manager01-swarmlab03-sieqgvps.srv.ravcloud.com
+ - worker01 - worker01-swarmlab03-jj9da1fm.srv.ravcloud.com
+ - worker02 - worker02-swarmlab03-nfuhy1cr.srv.ravcloud.com
+ 
+LAB04:
+ - manager01 - manager01-swarmlab04-8ou7wssm.srv.ravcloud.com
+ - worker01 - worker01-swarmlab04-5ggliavc.srv.ravcloud.com
+ - worker02 - worker02-swarmlab04-hpc8oe5i.srv.ravcloud.com
+ 
+LAB05:
+ - manager01 - manager01-swarmlab05-b0aozrsc.srv.ravcloud.com
+ - worker01 - worker01-swarmlab05-kr2law9j.srv.ravcloud.com
+ - worker02 - worker02-swarmlab05-v8ifax2f.srv.ravcloud.com
+ 
+LAB06: (Nowy klucz)
+ - manager01 - manager01-swarmlab06-w55dg9lq.srv.ravcloud.com
+ - worker01 - worker01-swarmlab06-n48pp3zb.srv.ravcloud.com
+ - worker02 - worker02-swarmlab06-2bqf8elg.srv.ravcloud.com
+ 
+LAB07: (Nowy klucz)
+ - manager01 - manager01-swarmlab07-ejimonfm.srv.ravcloud.com
+ - worker01 - worker01-swarmlab07-drx2yquz.srv.ravcloud.com
+ - worker02 - worker02-swarmlab07-bd7q28ku.srv.ravcloud.com
+ 
+LAB08: (Nowy klucz)
+ - manager01: manager01-swarmlab08-72bxfrck.srv.ravcloud.com
+ - worker01 - worker01-swarmlab08-2qssbaw5.srv.ravcloud.com
+ - worker02 - worker02-swarmlab08-lygtsvq0.srv.ravcloud.com
