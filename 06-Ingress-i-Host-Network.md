@@ -1,8 +1,8 @@
 Ingress przykład jedna instancja:
 ```
 sudo docker network inspect ingress
-sudo docker service create -d --name web2 --network ingress --replicas 1 -p 8080:80 nginx
-sudo docker service inspect web --pretty
+sudo docker service create -d --name web2 --network backend --replicas 1 -p 8080:80 nginx
+sudo docker service inspect web2 --pretty
 ```
 Wejdz na stronę i zobacz jak działa serwis poprzez ingress routing:
 ```
@@ -11,7 +11,7 @@ http://worker02:8080
 ```
 Usuwamy:
 ```
-sudo docker service rm web
+sudo docker service rm web2
 ```
 Ingres dowolne rozkładanie ruchu pomiędzy węzłami klastra:
 ```
