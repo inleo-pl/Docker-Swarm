@@ -1,3 +1,10 @@
+Na początek zmień nazwy przydzielonych hostów wskazując ich rolę w klastrze. Pozwoli Ci to uniknąć błędów w kolejnych zadaniach:
+```
+sudo hostname manager01
+sudo hostname worker01
+sudo hostname worker02
+```
+
 Należy wykonać dla trzech węzłów klastra (manager01, worker01, worker02):
 ```
 sudo apt-get update
