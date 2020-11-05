@@ -1,3 +1,12 @@
+Uruchamiamy jeszcze raz visualizer
+```
+sudo docker service create \
+  --name=viz \
+  --publish=8090:8080/tcp \
+  --constraint=node.role==manager \
+  --mount=type=bind,src=/var/run/docker.sock,dst=/var/run/docker.sock \
+  dockersamples/visualizer
+```
 Zrzucamy konfig konenera:
 ```
 sudo docker service inspect viz > viz.inspect
