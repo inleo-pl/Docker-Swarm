@@ -7,6 +7,10 @@ sudo docker service inspect web2 --pretty
 Wejdz na stronę i zobacz jak działa serwis poprzez ingress routing:
 ```
 http://manager01:8080
+http://worker01:8080
+```
+Zobacz także, że z oczywistych względów na hoście worker02 nie działa, bo nie jest on częścią klastra:
+```
 http://worker02:8080
 ```
 Usuwamy:

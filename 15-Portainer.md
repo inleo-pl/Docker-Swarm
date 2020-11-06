@@ -2,7 +2,7 @@ Czyszczenie:
 ```
 sudo docker service rm $(sudo docker service ls -q)
 ```
-Uruchomienie serwisu Portainer:
+Uruchomienie serwisu Portainer w wersji stand alone:
 ```
 sudo docker service create \
     --name portainer \
@@ -16,12 +16,16 @@ Aby się do niego dostać wejdz na:
 ```
 http://manager01:8080
 ```
-Uruhamiamy viz aby zobaczyć jak Portainer przedstawia nam infrastrukturę:
+Czyszczenie:
 ```
-sudo docker service create \
-  --name=viz \
-  --publish=8090:8080/tcp \
-  --constraint=node.role==manager \
-  --mount=type=bind,src=/var/run/docker.sock,dst=/var/run/docker.sock \
-  dockersamples/visualizer
+sudo docker service rm $(sudo docker service ls -q)
+```
+Uruchomienie serwisu portainer na klastrze Swarm w konfiguracji z agentami:
+```
+curl -L https://downloads.portainer.io/portainer-agent-stack.yml -o portainer-agent-stack.yml
+sudo docker stack deploy -c portainer-agent-stack.yml portainer
+```
+Aby się do niego dostać wejdz na:
+```
+http://manager01:9000
 ```

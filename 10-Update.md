@@ -7,6 +7,7 @@ sudo docker service create \
 redis:3.0.6
 sudo docker service inspect --pretty redis
 sudo docker service update --image redis:3.0.7 --update-delay=20s redis
-sudo docker service ps
+sudo docker service ls
+sudo docker service ps redis
 sudo docker service inspect --pretty redis
 ```
